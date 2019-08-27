@@ -1,0 +1,7 @@
+<form (ngSubmit)=onSubmit(f) #f="ngForm" >
+<tr><td><input type="text" ngModel></td>
+<td><button type="submit" [disabled]="status">Click</button></td>
+</tr>
+</form>
+
+<ng-template #nodata> no Data Available</ng-template>
